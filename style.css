@@ -34,6 +34,7 @@ header {
 
 .hero-left {
     color: white;
+    width: 40%;
 }
 
 .hero-left > p {
@@ -57,6 +58,16 @@ button {
 
 header, .hero {
     padding: 24px 64px;
+}
+
+.quote > .quote-name {
+    font-style: normal;
+    text-align: right;
+}
+
+.text-gray {
+    color: #d0d0d0;
+    font-size: 75%;
 }
 
 .content {
@@ -88,12 +99,21 @@ h2 {
     margin-bottom: 32px;
 }
 
+.quote > p {
+    font-style: italic;
+    text-align: center;
+}
+
+.quote > b {
+    text-align: center;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
     background-color: #78877f;
     border-radius: 12px;
-    padding: 8px 64px;
+    padding: 24px 64px;
     margin: 0 32px;
 }
 
@@ -102,13 +122,13 @@ footer {
     flex-direction: column;
 }
 
-h3 {
+h3, p {
     margin-top: 16px;
+    height: fit-content;
+    padding: 4px;
+    margin: 0;
 }
 
-p {
-    margin-bottom: 16px;
-}
 
 footer > button {
     border-style: groove;
